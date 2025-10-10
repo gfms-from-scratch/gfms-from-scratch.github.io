@@ -145,8 +145,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="dropdown-text">Week 2 - ⚡ Rapid Remote Sensing Preprocessing</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="./chapters/c03a-terratorch-foundations.html">
+ <span class="dropdown-text">Week 3a - 🌍 TerraTorch Foundations</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="./chapters/c03-complete-gfm-architecture.html">
- <span class="dropdown-text">Week 3 - 🤖 Machine Learning on Remote Sensing</span></a>
+ <span class="dropdown-text">Week 3b - 🤖 Machine Learning on Remote Sensing</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./chapters/c04-pretraining-implementation.html">
@@ -317,7 +321,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="hpc-installation-and-setup" class="level2">
 <h2 class="anchored" data-anchor-id="hpc-installation-and-setup">💻 HPC Installation and Setup</h2>
 <ul>
-<li><a href="extras/grit-hpc-setup.qmd">Setting up HPC Access</a></li>
+<li><a href="./extras/grit-hpc-setup.html">Setting up HPC Access</a></li>
 <li><a href="./extras/cheatsheets/git_ssh_hpc.html">Git &amp; SSH Setup on HPC</a></li>
 </ul>
 </section>
@@ -340,6 +344,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="terratorch-for-geospatial-ai" class="level2">
 <h2 class="anchored" data-anchor-id="terratorch-for-geospatial-ai">🌎 TerraTorch for Geospatial AI</h2>
 <ul>
+<li><a href="./extras/cheatsheets/modular_gfm_architecture.html">Modular GFM Architecture in TerraTorch</a></li>
 <li><a href="./extras/examples/terratorch_workflows.html">TerraTorch Workflows</a></li>
 <li><a href="./extras/cheatsheets/terratorch_model_zoo.html">TerraTorch Model Zoo</a></li>
 </ul>
@@ -870,20 +875,21 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🌎 TerraTorch for Geospatial AI</span></span>
 <span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">TerraTorch Workflows</span><span class="co">](extras/examples/terratorch_workflows.qmd)</span></span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">TerraTorch Model Zoo</span><span class="co">](extras/cheatsheets/terratorch_model_zoo.qmd)</span></span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🤗 Foundation Models &amp; HuggingFace</span></span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Loading Pre-trained Models</span><span class="co">](extras/cheatsheets/loading_models.qmd)</span></span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Model Inference &amp; Feature Extraction</span><span class="co">](extras/cheatsheets/model_inference.qmd)</span></span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Fine-tuning Strategies</span><span class="co">](extras/cheatsheets/finetuning_basics.qmd)</span></span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="fu">## 📊 Visualization &amp; Analysis</span></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Plotting Satellite Imagery</span><span class="co">](extras/cheatsheets/plotting_satellite.qmd)</span></span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Interactive Maps with Folium</span><span class="co">](extras/cheatsheets/folium_basics.qmd)</span></span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Geospatial Plotting with Matplotlib</span><span class="co">](extras/cheatsheets/matplotlib_geospatial.qmd)</span></span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Modular GFM Architecture in TerraTorch</span><span class="co">](extras/cheatsheets/modular_gfm_architecture.qmd)</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">TerraTorch Workflows</span><span class="co">](extras/examples/terratorch_workflows.qmd)</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">TerraTorch Model Zoo</span><span class="co">](extras/cheatsheets/terratorch_model_zoo.qmd)</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🤗 Foundation Models &amp; HuggingFace</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Loading Pre-trained Models</span><span class="co">](extras/cheatsheets/loading_models.qmd)</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Model Inference &amp; Feature Extraction</span><span class="co">](extras/cheatsheets/model_inference.qmd)</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Fine-tuning Strategies</span><span class="co">](extras/cheatsheets/finetuning_basics.qmd)</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="fu">## 📊 Visualization &amp; Analysis</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Plotting Satellite Imagery</span><span class="co">](extras/cheatsheets/plotting_satellite.qmd)</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Interactive Maps with Folium</span><span class="co">](extras/cheatsheets/folium_basics.qmd)</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Geospatial Plotting with Matplotlib</span><span class="co">](extras/cheatsheets/matplotlib_geospatial.qmd)</span></span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">
